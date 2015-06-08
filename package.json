@@ -1,6 +1,6 @@
 {
   "name": "generator-theme",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Front End Theme Starter",
   "license": "MIT",
   "main": "app/index.js",
