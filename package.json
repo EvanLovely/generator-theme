@@ -1,24 +1,33 @@
 {
   "name": "generator-theme",
   "version": "0.0.1",
-  "description": "Start up a Front End Theme",
-  "main": "index.js",
+  "description": "Front End Theme Starter",
+  "license": "MIT",
+  "main": "app/index.js",
+  "repository": "EvanLovely/generator-theme",
+  "author": {
+    "name": "Evan Lovely",
+    "email": "",
+    "url": "https://github.com/EvanLovely"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deps": "npm install"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/EvanLovely/generator-theme.git"
-  },
-  "keywords": [
-    "front-end",
-    "css",
-    "theme"
+  "files": [
+    "generators"
   ],
-  "author": "Evan Lovely",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/EvanLovely/generator-theme/issues"
+  "keywords": [
+    "yeoman-generator",
+    "theme",
+    "css",
+    "front-end"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^0.19.0",
+    "chalk": "^1.0.0",
+    "yosay": "^1.0.2"
   },
-  "homepage": "https://github.com/EvanLovely/generator-theme"
+  "devDependencies": {
+    "mocha": "*"
+  }
 }
